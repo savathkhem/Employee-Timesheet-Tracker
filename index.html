@@ -7,7 +7,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
         crossorigin="anonymous">
-    <script src=“https://code.jquery.com/jquery-3.3.1.js“></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.11.0/firebase.js"></script>
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
     <title>Employee Timesheet Tracker</title>
 </head>
 
@@ -35,21 +37,21 @@
             <div class="panel-heading">Add Employee</div>
             <div class="form-group">
                 <label>Employee Name:</label>
-                <input type="text" class="form-control" id = "employee-name">
+                <input type="text" class="form-control" id="employee-name">
             </div>
             <div class="form-group">
                 <label>Role:</label>
-                <input type="text" class="form-control" id ="role">
+                <input type="text" class="form-control" id="role">
             </div>
             <div class="form-group">
                 <label>Date Started DD/MM/YYYY ex. 01/01/89:</label>
-                <input type="text" class="form-control" id = "date-started">
+                <input type="text" class="form-control" id="date-started">
             </div>
             <div class="form-group">
                 <label>Monthly Rate:</label>
-                <input type="text" class="form-control" id = "monthly-rate">
+                <input type="text" class="form-control" id="monthly-rate">
             </div>
-            <button class ="btn btn-primary" id = "submit">Submit</button>
+            <button class="btn btn-primary" id="submit">Submit</button>
         </div>
     </div>
 
